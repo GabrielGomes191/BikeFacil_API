@@ -5,6 +5,7 @@ API desenvolvida em Ruby on Rails para acesso ao banco de dados da BikeFácil
     Colocar suas credencias do MySQL em config/database.yml
       $ rails db:create
       $ rails db:migrate
+      $ rails server
     
 # Como criar uma tabela:
     $ rails generate scaffold User name:string cpf:string idade:integer (exemplo)
